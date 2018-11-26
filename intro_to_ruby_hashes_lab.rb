@@ -31,7 +31,7 @@ end
 def monopoly_with_fourth_tier
 	#copy and paste the monopoly hash you build in the previous method. We're going to add stuff to it here!
 	monopoly = {}
-	monopoly[:railroads] = { :pieces => 4, :names => {} }
+	monopoly[:railroads] = { :pieces => 4 }
 	monopoly[:railroads][:names][:reading_railroad] = { 'mortgage_value' => '$100'}
 	monopoly[:railroads][:names][:pennsylvania_railroad] = {'mortgage_value' => '$200'}
 	monopoly[:railroads][:names][:b_and_o_railroad] = {'mortgage_value' => '$400'}
